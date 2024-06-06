@@ -4,6 +4,7 @@ import { CustomerModule } from "./customer/customer.module";
 import { AppointmentModule } from "./appointment/appointment.module";
 import { StaffModule } from "./staff/staff.module";
 import { UserModule } from "./user/user.module";
+import { ReadmeModule } from "./Readme/readme.module";
 import { HealthModule } from "./health/health.module";
 import { PrismaModule } from "./prisma/prisma.module";
 import { SecretsManagerModule } from "./providers/secrets/secretsManager.module";
@@ -26,6 +27,7 @@ import { AuthModule } from "./auth/auth.module";
     AppointmentModule,
     StaffModule,
     UserModule,
+    ReadmeModule,
     HealthModule,
     PrismaModule,
     SecretsManagerModule,
